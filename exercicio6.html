@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('js-copia.png');
+            background-color: #f7df1e;
+            background-size: contain; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+            text-align: center;
+            padding-top: 0,5px;    
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Verificador de Senhas</h1>
+
+    <h4>Verifique se sua senha está correta!</h4>
+    
+    <div class="password-container">
+        <input type="password" id="password" placeholder="Digite sua senha">
+        <button id="toggle-btn">Mostrar</button>
+    </div>
+    
+    <button id="verify-btn">Verificar</button>
+    
+    <p id="result" class="result"></p>
+
+    <button onclick="window.location.href='index.html'">Voltar para a Página Inicial</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
